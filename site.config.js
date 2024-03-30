@@ -1,9 +1,9 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    name: "mols",
+    image: "/mols.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "role",
     bio: "I develop everything using node.",
     email: "morethanmin.dev@gmail.com",
     linkedin: "morethanmin",
@@ -11,10 +11,10 @@ const CONFIG = {
     instagram: "",
   },
   projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
+    // {
+    //   name: `morethan-log`,
+    //   href: "https://github.com/morethanmin/morethan-log",
+    // },
   ],
   // blog setting (required)
   blog: {
@@ -34,32 +34,32 @@ const CONFIG = {
   },
 
   // plugin configuration (optional)
-  googleAnalytics: {
-    enable: false,
-    config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
-    },
-  },
-  googleSearchConsole: {
-    enable: false,
-    config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
-    },
-  },
-  naverSearchAdvisor: {
-    enable: false,
-    config: {
-      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
-    },
-  },
-  utterances: {
-    enable: true,
-    config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
-      "issue-term": "og:title",
-      label: "💬 Utterances",
-    },
-  },
+  // googleAnalytics: {
+  //   enable: false,
+  //   config: {
+  //     measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+  //   },
+  // },
+  // googleSearchConsole: {
+  //   enable: false,
+  //   config: {
+  //     siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+  //   },
+  // },
+  // naverSearchAdvisor: {
+  //   enable: false,
+  //   config: {
+  //     siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
+  //   },
+  // },
+  // utterances: {
+  //   enable: true,
+  //   config: {
+  //     repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+  //     "issue-term": "og:title",
+  //     label: "💬 Utterances",
+  //   },
+  // },
   cusdis: {
     enable: false,
     config: {
