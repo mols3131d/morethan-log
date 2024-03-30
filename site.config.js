@@ -11,10 +11,10 @@ const CONFIG = {
     instagram: "",
   },
   projects: [
-    // {
-    //   name: `morethan-log`,
-    //   href: "https://github.com/morethanmin/morethan-log",
-    // },
+    {
+      name: ``,
+      href: "",
+    },
   ],
   // blog setting (required)
   blog: {
@@ -33,33 +33,33 @@ const CONFIG = {
     pageId: process.env.NOTION_PAGE_ID,
   },
 
-  // plugin configuration (optional)
-  // googleAnalytics: {
-  //   enable: false,
-  //   config: {
-  //     measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
-  //   },
-  // },
-  // googleSearchConsole: {
-  //   enable: false,
-  //   config: {
-  //     siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
-  //   },
-  // },
-  // naverSearchAdvisor: {
-  //   enable: false,
-  //   config: {
-  //     siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
-  //   },
-  // },
-  // utterances: {
-  //   enable: true,
-  //   config: {
-  //     repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
-  //     "issue-term": "og:title",
-  //     label: "💬 Utterances",
-  //   },
-  // },
+  plugin configuration (optional)
+  googleAnalytics: {
+    enable: false,
+    config: {
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+    },
+  },
+  googleSearchConsole: {
+    enable: false,
+    config: {
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+    },
+  },
+  naverSearchAdvisor: {
+    enable: false,
+    config: {
+      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
+    },
+  },
+  utterances: {
+    enable: true,
+    config: {
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      "issue-term": "og:title",
+      label: "💬 Utterances",
+    },
+  },
   cusdis: {
     enable: false,
     config: {
