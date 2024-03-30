@@ -33,7 +33,7 @@ const CONFIG = {
     pageId: process.env.NOTION_PAGE_ID,
   },
 
-  plugin configuration (optional)
+  // plugin configuration (optional)
   googleAnalytics: {
     enable: false,
     config: {
